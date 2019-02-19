@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Svend Ejnar</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Ultra" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <section id="logo-burger"><label for="toggle">&#9776;</label></section>
+        <nav> <input type="checkbox" id="toggle" class="hidden">
+            <ul id="main-nav">
+                <li><a href="#svendejnar">Svend Ejnar</a></li>
+                <li><a href="#univers">Hans elektroniske univers</a></li>
+                <li><a href="#studiet">I studiet</a></li>
+                <li><a href="#vaerker">Værker</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="images/svendejnar.jpg" alt="Svend Ejnar" id="svend">
+
+        <section id="svendejnar">
+            <h1>Svend Ejnar Fisker Langkjer</h1>
+            <p>Svend Ejnar Fisker Langkjer er 34 år og er på 1. år af masters hos det Jyske Musikkonservatorium i Aarhus (DIEM), hvor han studerer elektronisk musik. Inden Svend Ejnar trådte ind i den elektroniske genre, spillede han meget guitar. Han har altid været interesseret i de forskellige lyde, som forskellige instrumenter etc. lavede, så han begyndte at eksperimentere med dem, hvilket førte til hans interesse for eksperimenterende elektronisk musik.
+            </p>
+        </section>
+
+        <section id="univers">
+            <h1>Hans elektroniske univers</h1>
+            <p>Som Svend Ejnar selv siger, er hans elektroniske musik lidt uden for en reel genre. Han er drevet af en eksperimenterende ånd, som skaber nysgerrighed og fascination af det anderledes og nye. De frie tøjler til at lege og analysere lyde gør det hele lidt mere ekstraordinært for ham. Han finder stor interesse i at kreere nye lyde og sammensætte de nye lyde med et visuelt udtryk i form af grafiske elementer, som bevæger sig i takt med lydene.</p>
+
+            <video controls id="video1" loop>
+                <source src="video/svendejnar.mp4">
+            </video>
+
+
+        </section>
+
+        <article id="studiet">
+            <h1>I studiet</h1>
+            <p>Udover sine dage på skolen og sin tid i studiet, bruger Svend Ejnar meget af sin fritid på at lære at lave nye lyde fra biblioteker og andre kilder. Han arbejder meget med at manipulere lyde, som han selv har indspillet. <br><br>
+                Derudover bruger han også meget tid på at programmere computeren til at lytte ligesom et menneske. Det programmering han laver, sker oftest i et program der hedder Max/Msp,som ligner en form for visuel "flowchart" programmering. Derudover bruger han også indimellem kodesprogene C++, Python og TensorFlow - når han arbejder med mere avancerede neurale netværks algoritmer, og “AI” mm. Men langt hen af vejen forsøger han at implementere disse ideer i Max, så det er lettere at få dem til at spille sammen med hans andre maskiner i Max, som f.eks geometriske trommemaskiner, andre diverse lydskabende/lydtransformerende processer. <br>
+                Men groft sagt arbejder han for det meste med en blanding af signalbehandling,
+                i form af analyse, samt transformation af signaler af lyde og “Machine Learning”, hvilket tillader ham at interagere med lyde på nye og interessante måder. <br><br>
+                Et eksempel kan være at lade hans program analysere og forstå indholdet i en, eller flere lydoptagelser, og derefter begynde at sammenligne hver enkelt lille lydbid, i form af længde, amplitude, toneleje og timbre, for så at finde de lyde, der minder mest eller mindst om hinanden, ved hjælp af “cluster analyse” <br><br>
+                Herefter kan han så interagere med disse "lydgrupper", og arbejde med at organisere dem i tid, samt påvirke lyden på utallige måder.
+            </p>
+
+            <div id="container">
+                <img class="arbejde" id="speciel" src="images/istudiet.jpg" alt="Svend ejner der arbejder i studiet">
+                <img class="arbejde" src="images/programmere.jpg" alt="Svend ejner der arbejder i studiet">
+            </div>
+        </article>
+
+        <section>
+            <h1 id="vaerker">Værker</h1>
+            <video class="vaerk" id="video2" controls src="video/videooglyd.mp4"></video>
+    
+               <div class="flexp">
+                <audio id="lydklip1" src="video/lyd.mp3"></audio>
+                <img class="vaerk" src="images/prikker.jpg" alt="trommespil" onmouseover="document.getElementById('lydklip1').play()" onmouseout="document.getElementById('lydklip1').pause()">
+            </div>
+           
+            <video id="video3" class="vaerk" controls src="video/video.mp4"></video>
+
+        </section>
+
+
+   
+   
+    </main>
+
+    <!-- scripts -->
+    <script src="js/js.js"></script>
+</body>
+
+</html>

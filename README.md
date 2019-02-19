@@ -1,2 +1,6 @@
-# svendejnar
-Web dokumentar om Svend Ejnar Fisker Lagkjer
+JavaScript Boilerplates
+=======================
+
+In this directory you'll find several JavaScript boilterplates.
+
+* jsBoilerplate.html: Vanilla JavaScript
