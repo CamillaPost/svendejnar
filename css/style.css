@@ -132,11 +132,6 @@ header {
     width: 100%;
 }
 
-#svendejnar {
-    background-image: url(../images/prikker.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 #univers {
     background-image: url(../images/baggrund1.jpg);
@@ -207,6 +202,7 @@ div#lyd{grid-area: lyd;}
 
 .vaerk{
     cursor: pointer;
+    width: 600px;
 }
 
 #lydbillede{
@@ -216,6 +212,8 @@ div#lyd{grid-area: lyd;}
 #vaerkcontainer{
     display: grid;
     grid-template-areas: 'v2 lyd';
+    justify-content: center;
+    grid-gap: 10%;
 }
 
 #vaerker{
